@@ -2,458 +2,470 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Simple Calendar 2026 – Privacy Policy</title>
+  <title>Simple Calendar 2026 – Privacy Policy, Terms of Use & License Agreement</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    :root {
-      --primary: #e53935;
-      --primary-soft: #ffebee;
-      --text-main: #222222;
-      --text-muted: #555555;
-      --border-soft: #e0e0e0;
-      --background: #ffffff;
+    :root{
+      --primary:#dc2626;
+      --primary-dark:#991b1b;
+      --primary-soft:#fee2e2;
+      --text-main:#111827;
+      --text-muted:#374151;
+      --border-soft:#e5e7eb;
+      --background:#ffffff;
     }
-
-    * {
-      box-sizing: border-box;
+    *{box-sizing:border-box;}
+    body{
+      margin:0;padding:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+      background:var(--background);
+      color:var(--text-main);
+      line-height:1.6;
     }
-
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: var(--background);
-      color: var(--text-main);
-      line-height: 1.6;
+    header{
+      background:var(--primary);
+      color:#fff;
+      padding:24px 16px;
+      text-align:center;
+      border-bottom:4px solid var(--primary-dark);
     }
-
-    header {
-      background: var(--primary);
-      color: #ffffff;
-      padding: 24px 16px;
-      text-align: center;
-      border-bottom: 4px solid #b71c1c;
+    header h1{margin:0 0 4px 0;font-size:1.85rem;letter-spacing:0.02em;}
+    header p{margin:0;font-size:0.98rem;opacity:0.95;}
+    .last-updated{font-size:0.85rem;opacity:0.92;margin-top:6px;}
+    .calendar-badge{
+      width:150px;height:150px;
+      margin:0 auto 14px auto;
+      background:#fff;
+      border-radius:32px;
+      border:4px solid var(--primary-dark);
+      box-shadow:0 6px 16px rgba(0,0,0,0.22);
+      display:flex;align-items:center;justify-content:center;
     }
-
-    header h1 {
-      margin: 0 0 4px 0;
-      font-size: 1.8rem;
-      letter-spacing: 0.03em;
+    .calendar-logo{max-width:100%;max-height:100%;display:block;border-radius:24px;}
+    main{max-width:980px;margin:0 auto;padding:24px 16px 44px;}
+    .card{
+      background:#fff;
+      border-radius:12px;
+      border:1px solid var(--border-soft);
+      padding:20px 18px;
+      margin-bottom:18px;
+      box-shadow:0 2px 10px rgba(0,0,0,0.05);
     }
-
-    header p {
-      margin: 0;
-      font-size: 0.95rem;
-      opacity: 0.9;
+    h2{margin:0 0 8px 0;font-size:1.28rem;color:var(--primary);}
+    h3{margin:16px 0 6px 0;font-size:1.05rem;color:var(--text-main);}
+    p{margin:7px 0;color:var(--text-muted);font-size:0.96rem;}
+    ul{margin:6px 0 6px 18px;padding:0;color:var(--text-muted);font-size:0.96rem;}
+    li{margin:4px 0;}
+    strong{color:var(--text-main);}
+    .tagline{
+      background:var(--primary-soft);
+      border-radius:10px;
+      padding:12px 12px;
+      border-left:4px solid var(--primary);
+      font-size:0.95rem;
+      margin-bottom:12px;
+      color:#111827;
     }
-
-    .last-updated {
-      font-size: 0.85rem;
-      color: #f5f5f5;
-      margin-top: 4px;
+    .warning{
+      background:#fff7ed;
+      border:1px solid #fed7aa;
+      border-left:4px solid #f97316;
+      border-radius:10px;
+      padding:12px 12px;
+      margin:10px 0 0 0;
+      color:#111827;
+      font-size:0.95rem;
     }
-
-    /* ΝΕΟ: Κόκκινος σελιδομετρητής με την εικόνα μέσα */
-    .calendar-badge {
-      width: 150px;
-      height: 150px;
-      margin: 0 auto 14px auto;
-      background: #ffffff;
-      border-radius: 32px;
-      border: 4px solid #b71c1c;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    .legal{
+      background:#f9fafb;
+      border:1px solid var(--border-soft);
+      border-left:4px solid #6b7280;
+      border-radius:10px;
+      padding:12px 12px;
+      margin:10px 0 0 0;
+      color:#111827;
+      font-size:0.95rem;
     }
-
-    .calendar-logo {
-      max-width: 100%;
-      max-height: 100%;
-      display: block;
-      border-radius: 24px;
+    .contact{
+      border-top:1px solid var(--border-soft);
+      margin-top:10px;
+      padding-top:8px;
+      font-size:0.95rem;
     }
-
-    main {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 24px 16px 40px;
-    }
-
-    .card {
-      background: #ffffff;
-      border-radius: 10px;
-      border: 1px solid var(--border-soft);
-      padding: 20px 18px;
-      margin-bottom: 18px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.04);
-    }
-
-    h2 {
-      margin-top: 0;
-      margin-bottom: 8px;
-      font-size: 1.25rem;
-      color: var(--primary);
-    }
-
-    h3 {
-      margin-top: 16px;
-      margin-bottom: 6px;
-      font-size: 1.05rem;
-      color: var(--text-main);
-    }
-
-    p {
-      margin: 6px 0;
-      color: var(--text-muted);
-      font-size: 0.95rem;
-    }
-
-    ul {
-      margin: 4px 0 4px 18px;
-      padding: 0;
-      color: var(--text-muted);
-      font-size: 0.95rem;
-    }
-
-    li {
-      margin: 3px 0;
-    }
-
-    strong {
-      color: var(--text-main);
-    }
-
-    .tagline {
-      background: var(--primary-soft);
-      border-radius: 8px;
-      padding: 10px 12px;
-      border-left: 4px solid var(--primary);
-      font-size: 0.9rem;
-      margin-bottom: 10px;
-    }
-
-    .contact {
-      border-top: 1px solid var(--border-soft);
-      margin-top: 10px;
-      padding-top: 8px;
-      font-size: 0.95rem;
-    }
-
-    a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
+    a{color:var(--primary);text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:6px;font-size:0.92em;}
   </style>
 </head>
 <body>
   <header>
     <div class="calendar-badge">
-      <img
-        src="Simple_Calendar.png"
-        alt="Simple Calendar 2026 Icon"
-        class="calendar-logo"
-      />
+      <img src="Simple_Calendar.png" alt="Simple Calendar 2026 Icon" class="calendar-logo" />
     </div>
     <h1>Simple Calendar 2026</h1>
-    <p>Privacy Policy</p>
+    <p>Privacy Policy, Terms of Use & License Agreement</p>
     <p class="last-updated">Last updated: 8 December 2025</p>
   </header>
 
   <main>
+    <!-- 0. Overview -->
     <section class="card">
       <div class="tagline">
-        Simple Calendar 2026 is designed to help you manage your time, holidays, and events
-        with minimal data collection and clear privacy controls.
+        This unified document contains the Privacy Policy and legally binding Terms of Use, including a strict license, trade secret notice,
+        intellectual property protections, and enforcement/takedown procedures for Simple Calendar 2026.
       </div>
+
       <p>
-        This Privacy Policy explains how Simple Calendar 2026 (“<strong>App</strong>”,
-        “<strong>we</strong>”, “<strong>us</strong>” or “<strong>our</strong>”) collects,
-        uses, stores, and protects information when you use our mobile and web applications.
+        This document is a binding agreement between you (“<strong>User</strong>”, “<strong>you</strong>”) and the developer/owner of
+        Simple Calendar 2026 (“<strong>Developer</strong>”, “<strong>we</strong>”, “<strong>us</strong>”, “<strong>our</strong>”).
+        It governs your access to and use of the Simple Calendar 2026 application, services, websites, documentation, and related assets
+        (collectively, the “<strong>App</strong>”).
       </p>
+
+      <div class="warning">
+        <strong>Zero-tolerance anti-copying notice:</strong> The App and all associated materials are protected by copyright, software,
+        database, trademark, trade dress, and unfair competition laws, as well as international treaties (including the Berne Convention
+        and TRIPS). Any copying, cloning, imitation, reverse engineering, scraping, or misappropriation is strictly prohibited and may
+        result in immediate takedown action and legal proceedings seeking injunctive relief, damages, account of profits, costs, and
+        attorneys’ fees where available.
+      </div>
+
+      <div class="legal">
+        <strong>Mandatory rights preserved:</strong> Nothing in this document limits any non-waivable rights you may have under applicable
+        law (including consumer protection and data protection laws). Where a clause is unenforceable in your jurisdiction, it will be
+        enforced to the maximum extent permitted by law.
+      </div>
+
       <p>
-        By installing or using the App, you agree to this Privacy Policy. If you do not agree,
-        please do not use the App.
+        By installing, accessing, or using the App, you confirm that you have read, understood, and agree to this document. If you do not
+        agree, do not use the App.
+      </p>
+
+      <p style="margin-top:10px; font-size:0.92rem; color:#4b5563;">
+        <strong>Note:</strong> This document is provided for transparency and does not constitute legal advice. For advice tailored to your
+        situation, consult qualified counsel.
       </p>
     </section>
 
+    <!-- 1. Definitions -->
     <section class="card">
-      <h2>1. Data Controller</h2>
-      <p>
-        The data controller for Simple Calendar 2026 is the individual developer and owner
-        of the App (“Developer”). If you have any questions, you can contact the Developer
-        using the details at the end of this document.
-      </p>
-      <p>
-        The App is developed in the European Union and is intended to comply with the
-        General Data Protection Regulation (“GDPR”) and other applicable data protection laws.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>2. Information We Collect</h2>
-
-      <h3>2.1 Information you provide directly</h3>
-      <p>When using the App, you may provide the following information:</p>
+      <h2>1. Definitions</h2>
       <ul>
         <li>
-          <strong>Calendar events</strong> – titles, notes, dates, times, reminders,
-          and any other text you enter into an event.
+          <strong>App</strong> means Simple Calendar 2026 and all related services, websites, documentation, and updates.
         </li>
         <li>
-          <strong>Country and region settings</strong> – to display local holidays,
-          name days, and observances.
-        </li>
-      </ul>
-
-      <h3>2.2 Account information (when using cloud sync)</h3>
-      <p>
-        If you choose to sign in and enable cloud synchronization:
-      </p>
-      <ul>
-        <li>
-          <strong>Google account information</strong> – basic profile data such as your
-          Google account ID, email address, and display name, provided via Google Sign-In
-          (OAuth).
+          <strong>Materials</strong> means all content and elements of the App, including (without limitation) source code, object code,
+          architecture, databases, UI layouts, visual design, icons, logos, the distinctive wooden calendar icon, weather planning
+          presentation, theme system, animations, text, graphics, and documentation.
         </li>
         <li>
-          <strong>Cloud calendar data</strong> – your events and related metadata
-          stored securely in our cloud database to keep your data synchronized across devices.
-        </li>
-      </ul>
-
-      <h3>2.3 Automatically collected information</h3>
-      <p>
-        To keep the App working correctly and securely, we may process limited technical data, such as:
-      </p>
-      <ul>
-        <li>Device type, operating system version, and screen size.</li>
-        <li>Approximate time zone and language settings.</li>
-        <li>
-          Basic error and performance information (for example, failed network requests or
-          crash logs) to debug and improve stability.
-        </li>
-      </ul>
-      <p>
-        We do <strong>not</strong> collect your precise GPS location, contact list, photos,
-        or other sensitive content through Simple Calendar 2026.
-      </p>
-
-      <h3>2.4 Local storage and cookies</h3>
-      <p>
-        The App uses local storage technologies (such as localStorage or similar) to:
-      </p>
-      <ul>
-        <li>Store your events locally on your device (when not using cloud sync).</li>
-        <li>Remember your selected country, theme, and view settings.</li>
-        <li>Remember if you have already seen in-app messages (for example, New Year celebration).</li>
-      </ul>
-      <p>
-        When you access the web version, session cookies or local storage may be used only
-        to provide essential functionality and security, not for cross-site tracking.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>3. How We Use Your Information</h2>
-      <p>We use the information described above for the following purposes:</p>
-      <ul>
-        <li>
-          <strong>Provide core calendar functionality</strong> – create, edit, display,
-          and delete your events, holidays, and reminders.
+          <strong>Services</strong> means optional online features such as sign-in and cloud synchronization.
         </li>
         <li>
-          <strong>Cloud synchronization</strong> – securely store and sync your calendar
-          across devices when you choose to sign in.
+          <strong>Third-Party Services</strong> means services provided by third parties, including Google Sign-In and cloud providers.
         </li>
         <li>
-          <strong>Localization</strong> – show the correct holidays and observances for
-          your selected country and year.
-        </li>
-        <li>
-          <strong>Security and fraud prevention</strong> – protect user accounts,
-          prevent abuse, and ensure the integrity of our services.
-        </li>
-        <li>
-          <strong>Improvement of the App</strong> – analyze anonymized or aggregated
-          technical information to fix bugs and optimize performance.
-        </li>
-      </ul>
-      <p>
-        We do not sell your personal data and we do not build advertising profiles based on
-        your calendar content.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>4. Legal Bases (GDPR)</h2>
-      <p>
-        If you are located in the EU/EEA or another region with similar laws, we rely on the
-        following legal bases to process your personal data:
-      </p>
-      <ul>
-        <li>
-          <strong>Performance of a contract</strong> – to provide the App and its core
-          features that you request.
-        </li>
-        <li>
-          <strong>Legitimate interests</strong> – to maintain and improve the App,
-          protect security, and prevent abuse, in a way that respects your rights.
-        </li>
-        <li>
-          <strong>Consent</strong> – when you explicitly choose to sign in with Google
-          or enable cloud sync and similar optional features. You may withdraw your consent
-          at any time by signing out and/or clearing your data.
+          <strong>Trade Secrets</strong> means non-public technical and business information that derives independent economic value from
+          not being generally known, including internal architecture choices, proprietary workflows, designs, and implementation details
+          not publicly disclosed.
         </li>
       </ul>
     </section>
 
+    <!-- 2. Privacy Policy -->
     <section class="card">
-      <h2>5. Data Storage and Retention</h2>
-      <h3>5.1 On your device</h3>
-      <p>
-        When using Simple Calendar 2026 without signing in, all event data is stored
-        locally on your device. You can delete this data at any time by:
-      </p>
-      <ul>
-        <li>Using the “Clear All Events” option inside the App, and/or</li>
-        <li>Uninstalling the App from your device.</li>
-      </ul>
+      <h2>2. Privacy Policy</h2>
 
-      <h3>5.2 In the cloud (Supabase)</h3>
+      <h3>2.1 Data Controller</h3>
       <p>
-        When you sign in and enable cloud sync, your calendar data is stored in our
-        cloud database (Supabase or an equivalent provider). Data is retained for as long as:
+        The data controller is the Developer. Contact details are provided in Section 14. The App is developed in the European Union and
+        is intended to comply with the General Data Protection Regulation (“GDPR”) and other applicable data protection laws.
       </p>
-      <ul>
-        <li>Your account remains active, or</li>
-        <li>Until you request deletion of your cloud data, or</li>
-        <li>Until we remove inactive accounts after a reasonable period of time.</li>
-      </ul>
-      <p>
-        You can request deletion of your cloud-synced events at any time by using the
-        in-app “Clear All Events” option while signed in, or by contacting us directly.
-      </p>
-    </section>
 
-    <section class="card">
-      <h2>6. Data Sharing and Transfers</h2>
-      <p>
-        We do not sell or rent your personal data. We only share data in the following
-        limited circumstances:
-      </p>
+      <h3>2.2 Information We Collect</h3>
       <ul>
         <li>
-          <strong>Service providers</strong> – we use trusted third-party providers
-          to host and operate our services, such as:
-          <ul>
-            <li>Supabase – database and authentication infrastructure.</li>
-            <li>Google – Google Sign-In and identity services.</li>
-            <li>Vercel or similar – hosting of the website and documentation.</li>
-          </ul>
+          <strong>Information you provide</strong>: event titles, notes, dates, times, reminders, and country/region settings.
         </li>
         <li>
-          <strong>Legal requirements</strong> – when required to comply with a valid
-          legal request, court order, or law enforcement investigation, in accordance
-          with applicable law.
+          <strong>Account data (optional)</strong>: if you enable cloud sync, limited Google identity data (as provided via Google OAuth)
+          and your cloud-synced calendar data required to synchronize across devices.
         </li>
         <li>
-          <strong>Business continuity</strong> – in the unlikely event of a merger,
-          acquisition, or similar transaction, your data may be transferred to the
-          new owner, subject to the same privacy protections.
+          <strong>Technical data</strong>: device type, operating system version, screen size, time zone, language, and limited error/performance
+          diagnostics used to improve stability and security.
         </li>
       </ul>
       <p>
-        Service providers may be located in the EU or in other countries. When data is
-        transferred outside the EU/EEA, we rely on appropriate safeguards such as
-        Standard Contractual Clauses or equivalent mechanisms, where required by law.
+        We do <strong>not</strong> collect your precise GPS location, contact list, photos, or sensitive content through Simple Calendar 2026.
+      </p>
+
+      <h3>2.3 Local Storage and Cookies</h3>
+      <p>
+        The App uses local storage technologies (for example <code>localStorage</code> or similar) to store events locally (when not using
+        cloud sync), remember preferences (country, theme, view), and reduce repeated prompts. The web version may use session storage for
+        essential functionality and security, not for cross-site tracking.
+      </p>
+
+      <h3>2.4 Purposes of Processing</h3>
+      <ul>
+        <li>Provide core calendar functionality and reminders.</li>
+        <li>Provide holidays/observances based on your selected country and year.</li>
+        <li>Provide weather-based planning features where enabled.</li>
+        <li>Provide optional cloud synchronization when you sign in.</li>
+        <li>Maintain security, prevent abuse, and improve stability and performance.</li>
+      </ul>
+
+      <h3>2.5 Legal Bases (GDPR)</h3>
+      <ul>
+        <li><strong>Contract</strong>: to provide requested features.</li>
+        <li><strong>Legitimate interests</strong>: to secure and improve the App in a balanced manner.</li>
+        <li>
+          <strong>Consent</strong>: for optional features such as Google Sign-In and cloud sync, which you can disable by signing out and
+          clearing data.
+        </li>
+      </ul>
+
+      <h3>2.6 Storage, Retention, and Deletion</h3>
+      <ul>
+        <li><strong>Local-only mode</strong>: data remains on your device and can be deleted via “Clear All Events” or uninstall.</li>
+        <li>
+          <strong>Cloud sync</strong>: data is retained while your account remains active or until deletion is requested/applied in accordance
+          with reasonable retention practices.
+        </li>
+      </ul>
+
+      <h3>2.7 Sharing and International Transfers</h3>
+      <p>
+        We do not sell or rent personal data. We may share data with service providers necessary to operate the App (for example authentication,
+        cloud database, hosting) and when required by law. Where transfers outside the EU/EEA occur, appropriate safeguards (such as Standard
+        Contractual Clauses) are used where required.
+      </p>
+
+      <h3>2.8 Security</h3>
+      <p>
+        We use reasonable security measures such as encrypted connections (HTTPS/TLS), access controls, and regular maintenance. No system is
+        guaranteed 100% secure. You are responsible for safeguarding your device and account credentials.
+      </p>
+
+      <h3>2.9 Your Rights</h3>
+      <p>
+        Depending on your jurisdiction, you may have rights including access, rectification, erasure, restriction, portability, objection,
+        and withdrawal of consent. Contact us to exercise rights (Section 14).
       </p>
     </section>
 
+    <!-- 3. Terms & License -->
     <section class="card">
-      <h2>7. Security</h2>
+      <h2>3. Terms of Use and License Agreement (Legally Binding)</h2>
+
+      <h3>3.1 Eligibility, compliance, and acceptable use</h3>
       <p>
-        We take reasonable technical and organizational measures to protect your data,
-        including:
+        You may use the App only if you can form a binding contract and comply with applicable laws. You must not use the App for unlawful
+        purposes or in violation of third-party rights.
+      </p>
+
+      <h3>3.2 Strict, limited, revocable license</h3>
+      <p>
+        Subject to your ongoing compliance, the Developer grants you a <strong>personal, limited, non-exclusive, non-transferable,
+        non-sublicensable, revocable</strong> license to install and use the App for your internal, non-commercial purposes.
+      </p>
+      <p>
+        <strong>No other rights are granted.</strong> All rights not expressly granted are reserved by the Developer. Any use outside the
+        scope of this license is strictly prohibited.
+      </p>
+
+      <h3>3.3 Prohibited conduct (absolute restrictions)</h3>
+      <p>You must not, and must not attempt to, directly or indirectly:</p>
+      <ul>
+        <li>Copy, reproduce, clone, mirror, or imitate the App or Materials, including the wooden calendar icon and UI look and feel.</li>
+        <li>Create or publish any “look-alike” app, template, theme pack, or competing calendar product that substantially reproduces the Materials.</li>
+        <li>Extract, download, scrape, or reuse icons, screenshots, layouts, styles, animations, or design assets from the App.</li>
+        <li>Reverse engineer, decompile, disassemble, or attempt to derive source code, trade secrets, or underlying ideas/algorithms.</li>
+        <li>Bypass or defeat security measures, access controls, rate limits, or licensing restrictions.</li>
+        <li>Use the App to benchmark, train, or develop a competing product, including by automated capture, instrumentation, or data harvesting.</li>
+        <li>Remove, alter, obscure, or falsify copyright, trademark, or attribution notices.</li>
+        <li>Distribute, sell, lease, sublicense, or commercially exploit the App or any Materials.</li>
+      </ul>
+
+      <h3>3.4 Weather and planning features disclaimer</h3>
+      <p>
+        Any weather summaries, forecasts, or “day plan” features are provided for informational purposes only and may be inaccurate, delayed,
+        or unavailable. You remain solely responsible for decisions and actions taken based on the App. The App does not provide safety,
+        medical, legal, or professional advice.
+      </p>
+
+      <h3>3.5 Updates and changes</h3>
+      <p>
+        We may update or modify the App (including features, UI, and dependencies) for security, stability, compliance, or improvement. We may
+        also discontinue parts of the App where required by law or business necessity.
+      </p>
+
+      <h3>3.6 Termination</h3>
+      <p>
+        We may suspend or terminate your license immediately if you violate this agreement or if we reasonably suspect unauthorized copying,
+        reverse engineering, scraping, or other prohibited conduct. Upon termination, you must cease all use and delete the App and any copies
+        of Materials in your possession or control.
+      </p>
+    </section>
+
+    <!-- 4. Trade Secret Notice -->
+    <section class="card">
+      <h2>4. Trade Secret and Confidentiality Notice</h2>
+      <p>
+        The App includes proprietary know-how and non-public implementation details that may constitute <strong>Trade Secrets</strong>.
+        Unauthorized acquisition, disclosure, or use of Trade Secrets is prohibited. You must not attempt to discover, extract, or disclose
+        any non-public technical information, including through reverse engineering, instrumentation, debugging, interception, or any method
+        designed to derive internal operation, architecture, or proprietary workflows.
+      </p>
+      <p>
+        Any unauthorized disclosure or use of Trade Secrets may result in immediate legal action, including injunctive relief, damages, and
+        other remedies available under applicable law.
+      </p>
+    </section>
+
+    <!-- 5. IP, Trade Dress & Enforcement -->
+    <section class="card">
+      <h2>5. Intellectual Property, Trade Dress, and Enforcement</h2>
+
+      <h3>5.1 Ownership</h3>
+      <p>
+        The App and Materials are protected by intellectual property and unfair competition laws, including (where applicable) EU software
+        and database protections. This includes the distinctive wooden icon, the visual UI design, theme system, layout structure, and the
+        weather planning presentation.
+      </p>
+
+      <h3>5.2 No implied rights</h3>
+      <p>
+        No license or right is granted by implication, estoppel, or otherwise. Any use outside the limited license in Section 3 is prohibited.
+      </p>
+
+      <h3>5.3 Evidence preservation and takedown actions</h3>
+      <p>
+        We actively protect our rights. Where we reasonably believe infringement or imitation has occurred, we may pursue remedies including:
       </p>
       <ul>
-        <li>Encrypted connections (HTTPS/TLS) between the App and our servers.</li>
-        <li>Access controls to ensure that only authorized systems and services can
-            access the database.</li>
-        <li>Regular updates and security patches for server and client components.</li>
+        <li>Notice-and-takedown requests to app stores, hosting providers, repositories, and platforms.</li>
+        <li>Temporary and permanent injunctive relief to stop distribution and remove infringing materials.</li>
+        <li>Claims for damages, account of profits, and recovery of costs and legal fees where available.</li>
+        <li>Preservation demands and evidence retention requests to prevent spoliation.</li>
       </ul>
-      <p>
-        However, no system can be guaranteed 100% secure. You are responsible for keeping
-        your device and your Google account credentials safe and protected.
-      </p>
+
+      <div class="warning">
+        <strong>Explicit warning:</strong> If you are considering copying the icon, UI, weather innovation presentation, or any portion of this App,
+        do not proceed. Unauthorized copying is not “inspiration”. It is infringement. We will pursue enforcement to the maximum extent permitted by law.
+      </div>
     </section>
 
+    <!-- 6. Copyright + DMCA-Style Procedure -->
     <section class="card">
-      <h2>8. Children’s Privacy</h2>
+      <h2>6. Copyright and Takedown Procedure (DMCA-Style Notice)</h2>
       <p>
-        Simple Calendar 2026 is not directed at children under the age of 13
-        (or the minimum age required by law in your country). We do not knowingly collect
-        personal information from children. If you believe that a child has provided us
-        with personal information without appropriate consent, please contact us so that
-        we can delete the data.
+        We respect intellectual property rights and expect others to do the same. If you believe that content or an application distributed by a third party
+        infringes our rights in the App or Materials (including the wooden icon, screenshots, UI layouts, or documentation), we may submit formal notices
+        to relevant platforms (including app stores, hosting providers, repositories, and content delivery networks) requesting removal or disabling of access.
       </p>
-    </section>
 
-    <section class="card">
-      <h2>9. Your Rights</h2>
+      <h3>6.1 Infringement reporting requirements</h3>
       <p>
-        Depending on your location, you may have the following rights regarding your
-        personal data:
+        To report suspected infringement to us, send a notice including, at minimum:
       </p>
       <ul>
-        <li>Right to access – to know what personal data we hold about you.</li>
-        <li>Right to rectification – to correct inaccurate or incomplete data.</li>
-        <li>Right to erasure – to request deletion of your data.</li>
-        <li>Right to restriction – to limit how we process your data.</li>
-        <li>Right to data portability – to receive your data in a structured, commonly used format.</li>
-        <li>Right to object – to object to certain types of processing, including direct marketing (if any).</li>
-        <li>Right to withdraw consent – when processing is based on consent, you may withdraw it at any time.</li>
+        <li>Your full name and contact information (email address required).</li>
+        <li>Identification of the copyrighted work(s) or protected Materials you claim are being infringed.</li>
+        <li>Identification of the allegedly infringing material with sufficient information to locate it (links, package name, developer name, store URL, repository URL).</li>
+        <li>A statement that you have a good-faith belief that the use is not authorized by the rights holder, its agent, or the law.</li>
+        <li>A statement, under penalty of perjury where applicable, that the information provided is accurate and that you are the rights holder or authorized to act on their behalf.</li>
       </ul>
+
+      <h3>6.2 Counter-notice</h3>
       <p>
-        To exercise any of these rights, please contact us using the details below. We may
-        need to verify your identity before responding to your request.
+        Where permitted by the relevant platform’s rules, an alleged infringer may submit a counter-notice. We reserve the right to contest counter-notices,
+        provide evidence, and pursue court orders where appropriate.
+      </p>
+
+      <p>
+        Submission of a false infringement notice or counter-notice may expose the submitter to liability under applicable law. We may cooperate with platforms
+        and lawful authorities in connection with infringement investigations.
       </p>
     </section>
 
+    <!-- 7. Third-Party Services -->
     <section class="card">
-      <h2>10. Third-Party Links</h2>
+      <h2>7. Third-Party Services</h2>
       <p>
-        The App or website may contain links to third-party websites or services (for example,
-        Google or documentation pages). We are not responsible for the privacy practices of
-        those third parties. We encourage you to review their privacy policies before
-        providing any personal information.
+        The App may rely on Third-Party Services (for example Google Sign-In and cloud infrastructure). Third-Party Services are governed by their own terms and
+        policies. We are not responsible for third-party practices.
       </p>
     </section>
 
+    <!-- 8. Disclaimers -->
     <section class="card">
-      <h2>11. Changes to This Privacy Policy</h2>
+      <h2>8. Disclaimer of Warranties</h2>
       <p>
-        We may update this Privacy Policy from time to time to reflect changes in the App,
-        legal requirements, or our data practices. When we make material changes, we will
-        update the “Last updated” date at the top of this page and, where appropriate,
-        provide an in-app notification.
-      </p>
-      <p>
-        Your continued use of Simple Calendar 2026 after any changes means that you accept
-        the updated Privacy Policy.
+        To the maximum extent permitted by law, the App is provided on an “AS IS” and “AS AVAILABLE” basis, without warranties of any kind, whether express,
+        implied, or statutory, including warranties of merchantability, fitness for a particular purpose, non-infringement, availability, accuracy, and error-free
+        operation.
       </p>
     </section>
 
+    <!-- 9. Limitation of Liability -->
     <section class="card">
-      <h2>12. Contact</h2>
-      <p>If you have any questions, requests, or concerns about this Privacy Policy or your data, you can contact:</p>
+      <h2>9. Limitation of Liability</h2>
+      <p>
+        To the maximum extent permitted by law, the Developer will not be liable for indirect, incidental, special, consequential, or punitive damages, or any loss
+        of profits, data, goodwill, or business opportunities arising out of or related to use of the App.
+      </p>
+      <p>
+        Where liability cannot be excluded, it is limited to the minimum permitted by applicable law.
+      </p>
+    </section>
+
+    <!-- 10. Indemnity -->
+    <section class="card">
+      <h2>10. Indemnification</h2>
+      <p>
+        To the maximum extent permitted by law, you agree to indemnify and hold harmless the Developer from claims, liabilities, damages, losses, and expenses
+        (including reasonable legal fees) arising from your misuse of the App, violation of this agreement, or infringement of any third-party rights.
+      </p>
+    </section>
+
+    <!-- 11. Governing Law -->
+    <section class="card">
+      <h2>11. Governing Law and Jurisdiction</h2>
+      <p>
+        This agreement is governed by the laws of the Developer’s jurisdiction within the European Union, without regard to conflict-of-law rules, and subject to any
+        mandatory consumer protection laws that apply to you. Courts of competent jurisdiction in the Developer’s jurisdiction will have exclusive jurisdiction, unless
+        mandatory law provides otherwise.
+      </p>
+    </section>
+
+    <!-- 12. Changes -->
+    <section class="card">
+      <h2>12. Changes to This Document</h2>
+      <p>
+        We may update this document to reflect changes in the App, legal requirements, or data practices. We will update the “Last updated” date and, where appropriate,
+        provide in-app notice. Continued use after updates constitutes acceptance.
+      </p>
+    </section>
+
+    <!-- 13. Misc -->
+    <section class="card">
+      <h2>13. Severability and Entire Agreement</h2>
+      <p>
+        If any provision is held invalid or unenforceable, the remaining provisions remain in full force and effect, and the invalid provision will be enforced to the
+        maximum extent permitted by law. This document constitutes the entire agreement between you and the Developer regarding the App and supersedes all prior or
+        contemporaneous understandings related to the App.
+      </p>
+    </section>
+
+    <!-- 14. Contact -->
+    <section class="card">
+      <h2>14. Contact (Privacy, Legal, and Infringement Reports)</h2>
+      <p>If you have questions, privacy requests, or wish to report infringement, contact:</p>
       <div class="contact">
-        <p><strong>Simple Calendar 2026 – Privacy Contact</strong></p>
-        <!-- Replace the email below with your real contact email -->
+        <p><strong>Simple Calendar 2026 – Privacy & Legal Contact</strong></p>
         <p>Email: <a href="mailto:ocysoft@outlook.com">ocysoft@outlook.com</a></p>
       </div>
     </section>
